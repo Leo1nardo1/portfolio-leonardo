@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Leonardo</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <a href="#"><p class="nav-name">Leonardo</p></a>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Sobre</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contato</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Leonardo de Carvalho</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Eu sou <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Desenvolvedor Fullstack com diversos projetos e uma paixão pela programação.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <!-- <button class="btn blue-btn">Me contrate</button> -->
+                        <!--Adicionar possibilidade de download do curriculo-->
+                        <button class="btn">Meu Currículo<i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <!-- <div class="icon"><i class="uil uil-instagram"></i></div> -->
+                        <div class="icon"><a href="https://www.linkedin.com/in/leonardo-de-carvalho-86b7a4292/"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/Leo1nardo1"><i class="uil uil-github-alt"></i></a></div>
+                        
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="20250210_130939.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Ver Mais</p>
+                    </a>
+                </div>
+
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Sobre mim</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Minha introdução</h3>
+                            <p>Tenho conhecimento e experiência em HTML, CSS, Javascript e PHP. Para mim, nenhuma tarefa
+                                é impossível, sempre busco dar o meu melhor e não fujo de novos desafios.
+                            </p>
+                            <!-- <div class="about-btn">
+                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    </div> -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>Tailwind CSS</span>
+                                <span>JavaScript</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>PHP</span>
+                                <span>JAVA</span>
+                                <span>Laravel</span>
+                                <span>C</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>PostgreSQL</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Concluídos</h3>
+                        <label>Mais de 10 Projetos concluídos</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Estudando</h3>
+                        <label>Ciências da Computação</label>
+                    </div>
+                    <!-- <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Clientes</h3>
+                <label>10 Clientes Felizes</label>
+            </div> -->
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experiência</h3>
+                        <label>3 anos na área</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Adicionar possibilidade de envio de e-mail -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Entre em contato</h1>
+                    <span>Você tem um projeto em mente? Contate-me aqui</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Contato<i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: leo.carvalho1ferreira@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> WhatsApp: (71) 9 9322-6906</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Nome">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Mensagem"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Enviar<i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <div class="top-footer">
+                <p>Leonardo de Carvalho.</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projetos</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <!-- <div class="icon"><i class="uil uil-instagram"></i></div> -->
+                <div class="icon"><a href="https://www.linkedin.com/in/leonardo-de-carvalho-86b7a4292/"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://github.com/Leo1nardo1"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Leonardo de Carvalho</a> - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
